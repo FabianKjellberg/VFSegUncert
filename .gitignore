@@ -1,3 +1,21 @@
-# Ignore dataset files
-/dataset
+# Ignore datasets and models
+datasets/
+checkpoints/
+logs/
 
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights and cache
+*.pth
+*.npy
+*.pt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

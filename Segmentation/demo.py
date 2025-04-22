@@ -116,6 +116,9 @@ def main():
         output_path = os.path.join(output_dir, f"{label}.png")
         cv2.imwrite(output_path, highlight)
 
+        class_mask_npy = f"{class_id:03d}_{cityscapes_classes[class_id]}.npy"
+        np.save(os.path.join(output_dir, class_mask_npy), class_mask)
+
     print(f"✅ Saved {len(np.unique(pred))} class masks in {output_dir}")
 
 

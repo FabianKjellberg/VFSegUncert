@@ -1,1 +1,13 @@
 # VFSegUncert
+
+segmenterignsmodell (tränad på cityscapes)
+
+fine tuna ändra format på bilder -> och träna tills tillräkligt bra på ett data set med validation
+
+Segmentera kitty dataset 0-8 9,10 för validation.
+
+Trända posemodell på segmenterade bilder 0-8 9,10 för validation.
+
+Trända DER uncertainty modell. kitty.
+
+segmentering -> pose prediction -> uncertainty

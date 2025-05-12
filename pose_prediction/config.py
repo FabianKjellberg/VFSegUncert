@@ -11,17 +11,17 @@ CONFIG = {
     # Model Architecture
     "image_size": (192, 640),
     "patch_size": 16,
-    "num_classes": 12,
+    "num_classes": 15,
     "embed_dim": 384,
     "depth": 12,
     "num_heads": 6,
     "dim_head": 64,
     "attn_dropout": 0.1,
     "ff_dropout": 0.1,
-    "num_frames": 2,
+    "num_frames": 5,
     "attention_type": "divided_space_time",
     "time_only": False,
-    "input_channels": 1,
+    "input_channels": 15,
 
     # Training
     "batch_size": 2,
